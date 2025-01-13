@@ -48,18 +48,25 @@ and **3) Cross-benchmark redundancy within specific domains**.
 
 
   
-## A-Bench Construction
+## Redundancy Framework
     
-Two key diagnostic subsets are defined: **A-Bench-P1** → high-level semantic understanding, and **A-Bench-P2** → low-level quality perception. For high-level semantic understanding, **A-Bench-P1** targets three critical areas: *Basic Recognition, Bag-of-Words Pitfalls Discrimination*, and *Outside Knowledge Realization*, which are designed to progressively test the LMM’s capability in AIGI semantic understanding, moving from simple to complex prompt-related content. For low-level quality perception, **A-Bench-P2** concentrates on *Technical Quality Perception, Aesthetic Quality Evaluation*, and *Generative Distortion Assessment*, which are designed to cover the common quality issues and AIGI-specific quality problems. 
 
-Specifically, a comprehensive dataset of 2,864 AIGIs sourced from various T2I models is compiled, including 1,408 AIGIs for **A-Bench-P1** and 1,456 for **A-Bench-P2**. Each AIGI is paired with a question-answer set annotated by human experts.
-We are open to **submission-based evaluation** for **A-Bench**. The details for submission are in the **Evaluate your model on A-Bench** Section.
 
-  <div style="width: 100%; text-align: center; margin:auto;">
-      <img style="width:100%" src="examples.png">
-  </div>
+<table>
+  <tr>
+    <td><img src="framework.png" alt="Description" style="width: 400px;"></td>
+    <td style="padding-left: 20px;">
+      <h3>标题</h3>
+      <p>这里是文字内容。</p>
+        <h3>标题</h3>
+      <p>这里是文字内容。</p>
+        <h3>标题</h3>
+      <p>这里是文字内容。</p>
+    </td>
+  </tr>
+</table>
 
-  
+
 
 
 ## Contact
