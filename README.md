@@ -47,11 +47,10 @@ and **3) Cross-benchmark redundancy within specific domains**.
  
 
 
-  
+
+
 ## Redundancy Framework
     
-
-
 <table>
   <tr>
     <td><img src="framework.png" alt="Description" style="width: 1200px;"></td>
@@ -71,12 +70,95 @@ and **3) Cross-benchmark redundancy within specific domains**.
   </tr>
 </table>
 
+## Redundancy Principles Recommendations
+
+We recommend performing redundancy detection on the benchmark after it is designed and initially tested on some MLLMs. This step ensures that the evaluation results are both more scientifically reliable and more efficient.
+
+**1) Dimensions Redundancy Check**
+
+
+Calculate the dimensional redundancy of the benchmark, placing particular emphasis on dimensions with overall high redundancy. Additionally, analyze the redundancy heatmap to identify pairs of dimensions with exceptionally high redundancy and evaluate whether these dimensions assess similar capabilities.
+
+**2) Instances Redundancy Check**
+
+Compute the instance redundancy curve of the benchmark and assess whether a limited subset of the instances can yield results similar to those of the full instances. If significant instance redundancy is identified, it is essential to review and reduce the redundant instances.
+
+**3) Cross-benchmark Redundancy Check**
+
+If you aim to design a benchmark as a representative for a specific vertical domain, calculate the cross-benchmark redundancy within that domain. Higher redundancy indicates stronger representativeness.
+On the other hand, if your goal is to identify gaps within a vertical domain, it is better to keep redundancy low to ensure broader coverage.
+
+If you want to test the core capabilities of a vertical domain under limited resources, it is recommended to select the benchmark with the highest cross-benchmark redundancy within the domain.
+
 
 # Redundancy Results
-<h3>PDF Viewer</h3>
-<iframe src="example.pdf" width="100%" height="600px" style="border: none;"></iframe>
+<table>
+    <h3>1-A Dimensions Redundancy Heatmaps on MMBench</h3>
+    <tr>
+        <td>
+            <img src="MMBench_TEST_EN_V11_png/MMBench_TEST_EN_V11_SRCC_50_heatmap.png" alt="Top-50 SRCC">
+            <p>Figure 1: Top-50 SRCC dimensions redundancy map</p>
+        </td>
+        <td>
+            <img src="MMBench_TEST_EN_V11_png/MMBench_TEST_EN_V11_SRCC_-50_heatmap.png" alt="Bottom-50 SRCC">
+            <p>Figure 2: Bottom-50 SRCC dimensions redundancy map</p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="MMBench_TEST_EN_V11_png/MMBench_TEST_EN_V11_PLCC_50_heatmap.png" alt="Top-50 PLCC">
+            <p>Figure 3: Top-50 PLCC dimensions redundancy map</p>
+        </td>
+        <td>
+            <img src="MMBench_TEST_EN_V11_png/MMBench_TEST_EN_V11_PLCC_-50_heatmap.png" alt="Bottom-50 PLCC">
+            <p>Figure 4: Bottom-50 PLCC dimensions redundancy map</p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="MMBench_TEST_EN_V11_png/MMBench_TEST_EN_V11_R2_50_heatmap.png" alt="Top-50 R2">
+            <p>Figure 5: Top-50 R2 dimensions redundancy map</p>
+        </td>
+        <td>
+            <img src="MMBench_TEST_EN_V11_png/MMBench_TEST_EN_V11_R2_-50_heatmap.png" alt="Bottom-50 R2">
+            <p>Figure 6: Bottom-50 R2 dimensions redundancy map</p>
+        </td>
+    </tr>
+</table>
 
+<table>
+         <h3>1-B Dimensions Redundancy Bar Plots on MMBench</h3>
+        <tr>
+            <td>
+                <img src="MMBench_TEST_EN_V11_png/MMBench_TEST_EN_V11_SRCC_50_avg_similarity_barplot.png" alt="Top-50 SRCC redundancy">
+                <p>Figure 7: Top-50 SRCC redundancy</p>
+            </td>
+            <td>
+                <img src="MMBench_TEST_EN_V11_png/MMBench_TEST_EN_V11_PLCC_50_avg_similarity_barplot.png" alt="Top-50 PLCC redundancy">
+                <p>Figure 8: Top-50 PLCC redundancy</p>
+            </td>
+            <td>
+                <img src="MMBench_TEST_EN_V11_png/MMBench_TEST_EN_V11_R2_50_avg_similarity_barplot.png" alt="Top-50 R2 redundancy">
+                <p>Figure 9: Top-50 R2 redundancy</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="MMBench_TEST_EN_V11_png/MMBench_TEST_EN_V11_SRCC_-50_avg_similarity_barplot.png" alt="Bottom-50 SRCC redundancy">
+                <p>Figure 10: Bottom-50 SRCC redundancy</p>
+            </td>
+            <td>
+                <img src="MMBench_TEST_EN_V11_png/MMBench_TEST_EN_V11_PLCC_-50_avg_similarity_barplot.png" alt="Bottom-50 PLCC redundancy">
+                <p>Figure 11: Bottom-50 PLCC redundancy</p>
+            </td>
+            <td>
+                <img src="MMBench_TEST_EN_V11_png/MMBench_TEST_EN_V11_R2_-50_avg_similarity_barplot.png" alt="Bottom-50 R2 redundancy">
+                <p>Figure 12: Bottom-50 R2 redundancy</p>
+            </td>
+        </tr>
+    </table>
 
+    
 ## Contact
 
 Please contact any of the first authors of this paper for queries.
