@@ -53,7 +53,7 @@ and **3) Cross-benchmark redundancy within specific domains**.
     
 <table>
   <tr>
-    <td><img src="framework.png" alt="Description" style="width: 1200px;"></td>
+    <td><img src="framework.png" alt="Description" style="width: 1600px;"></td>
     <td style="padding-left: 60px;">
       <h3>Dimensions Redundancy</h3>
       <p>$$\rho(X_i) = \frac{1}{m-1} \sum_{\substack{j=1 \\ j \neq i}}^m \text{CORR}(R_i, R_j),$$ </p>
