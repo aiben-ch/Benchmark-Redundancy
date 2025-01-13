@@ -77,16 +77,16 @@ We recommend performing redundancy detection on the benchmark after it is design
 **1) Dimensions Redundancy Check**
 
 
-Calculate the dimensional redundancy of the benchmark, placing particular emphasis on dimensions with overall high redundancy. Additionally, analyze the redundancy heatmap to identify pairs of dimensions with exceptionally high redundancy and evaluate whether these dimensions assess similar capabilities.
+Calculate the dimensional redundancy of the benchmark, **placing particular emphasis on dimensions with overall high redundancy**. Additionally, analyze the redundancy heatmap to identify pairs of dimensions with exceptionally high redundancy and evaluate whether these dimensions assess similar capabilities.
 
 **2) Instances Redundancy Check**
 
-Compute the instance redundancy curve of the benchmark and assess whether a limited subset of the instances can yield results similar to those of the full instances. If significant instance redundancy is identified, it is essential to review and reduce the redundant instances.
+Compute the instance redundancy curve of the benchmark and assess whether a limited subset of the instances can yield results similar to those of the full instances. If significant instance redundancy is identified, it is essential to **review and reduce the redundant instances**.
 
 **3) Cross-benchmark Redundancy Check**
 
-If you aim to design a benchmark as a representative for a specific vertical domain, calculate the cross-benchmark redundancy within that domain. Higher redundancy indicates stronger representativeness.
-On the other hand, if your goal is to identify gaps within a vertical domain, it is better to keep redundancy low to ensure broader coverage.
+If you aim to design a benchmark as a representative for a specific vertical domain, calculate the cross-benchmark redundancy within that domain. **Higher redundancy indicates stronger representativeness**.
+On the other hand, if your goal is to **identify gaps within a vertical domain, it is better to keep redundancy low to ensure broader coverage**.
 
 If you want to test the core capabilities of a vertical domain under limited resources, it is recommended to select the benchmark with the highest cross-benchmark redundancy within the domain.
 
@@ -157,6 +157,28 @@ If you want to test the core capabilities of a vertical domain under limited res
             </td>
         </tr>
     </table>
+
+1) These figures allow for a quick analysis of which dimensions exhibit high correlations.
+2) All Bottom-50 dimensions exhibit significantly higher redundancy than Top-50 redundancy.
+   
+<table>
+        <caption>Instances Redundancy for Top-50 and Bottom-50 MLLMs</caption>
+        <tr>
+            <th>Top-50 MLLMs</th>
+            <th>Bottom-50 MLLMs</th>
+        </tr>
+        <tr>
+            <td>
+                <img src="instance_num_figs/50_metrics_plot.png" alt="Instances redundancy with Top-50 MLLMs">
+                <p>Figure 1: Instances redundancy with Top-50 MLLMs.</p>
+            </td>
+            <td>
+                <img src="instance_num_figs/-50_metrics_plot.png" alt="Instances redundancy with Bottom-50 MLLMs">
+                <p>Figure 2: Instances redundancy with Bottom-50 MLLMs.</p>
+            </td>
+        </tr>
+    </table>
+
 
     
 ## Contact
