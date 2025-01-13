@@ -162,25 +162,36 @@ If you want to test the core capabilities of a vertical domain under limited res
 2) All Bottom-50 dimensions exhibit significantly higher redundancy than Top-50 redundancy.
    
 <table>
-        <caption>Instances Redundancy for Top-50 and Bottom-50 MLLMs</caption>
-        <tr>
-            <th>Top-50 MLLMs</th>
-            <th>Bottom-50 MLLMs</th>
-        </tr>
+        <h3>2 Instances Redundancy Curves</h3>
         <tr>
             <td>
-                <img src="instance_num_figs/50_metrics_plot.png" alt="Instances redundancy with Top-50 MLLMs">
-                <p>Figure 1: Instances redundancy with Top-50 MLLMs.</p>
+                <img src="instances_figs/50_metrics_plot.png" alt="Instances redundancy with Top-50 MLLMs">
+                <p>Figure 13: Instances redundancy with Top-50 MLLMs.</p>
             </td>
             <td>
-                <img src="instance_num_figs/-50_metrics_plot.png" alt="Instances redundancy with Bottom-50 MLLMs">
-                <p>Figure 2: Instances redundancy with Bottom-50 MLLMs.</p>
+                <img src="instances_figs/-50_metrics_plot.png" alt="Instances redundancy with Bottom-50 MLLMs">
+                <p>Figure 14: Instances redundancy with Bottom-50 MLLMs.</p>
             </td>
         </tr>
     </table>
 
+1) The majority of current MLLM benchmarks exhibit significant redundancy in their instances to rank both Top-50 and Bottom-50 MLLMs, with at least 50% of instances being redundant.
+2) The R² score can be understood as representing the fitness of predicting the final performance of MLLMs based on sampled instances. Compared to ensuring ranking accuracy, achieving high accuracy in predicting the absolute performance of MLLMs typically requires significantly more instances.
 
-    
+## How to Calculate Benchmark Redundancy
+
+We present a sample script [benchmark_dimensions_redundancy.py](https://github.com/zzc-1998/Benchmark-Redundancy/blob/main/utils/benchmark_dimensions_redundancy.py) to quickly do the benchmark dimensions redundancy check from the MLLM results on [OpenCompass](http://opencompass.openxlab.space/assets/OpenVLM.json).
+
+Use the following command to do the Top-50 redundancy check for MMBench
+```
+python benchmark_dimensions_redundancy.py --input_file opencompass_vlm.json --bench MMBench_TEST_EN_V11 --save_folder results --top_k 50 --vmin -0.1 --vmax 1.0
+```
+Use the following command to do the Bottom-50 redundancy check for MM-Bench
+```
+python benchmark_dimensions_redundancy.py --input_file opencompass_vlm.json --bench MMBench_TEST_EN_V11 --save_folder results --top_k 50 --vmin -0.1 --vmax 1.0
+```
+
+
 ## Contact
 
 Please contact any of the first authors of this paper for queries.
