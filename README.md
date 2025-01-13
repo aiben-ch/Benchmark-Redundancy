@@ -54,19 +54,27 @@ and **3) Cross-benchmark redundancy within specific domains**.
 
 <table>
   <tr>
-    <td><img src="framework.png" alt="Description" style="width: 400px;"></td>
-    <td style="padding-left: 20px;">
-      <h3>标题</h3>
-      <p>这里是文字内容。</p>
-        <h3>标题</h3>
-      <p>这里是文字内容。</p>
-        <h3>标题</h3>
-      <p>这里是文字内容。</p>
+    <td><img src="framework.png" alt="Description" style="width: 1200px;"></td>
+    <td style="padding-left: 60px;">
+      <h3>Dimensions Redundancy</h3>
+      <p>$$\rho(X_i) = \frac{1}{m-1} \sum_{\substack{j=1 \\ j \neq i}}^m \text{CORR}(R_i, R_j),$$ </p>
+      <p>where $$\\\text{CORR}(R_i, R_j)$$ is the correlation coefficient between the rankings $$R_i$$ and $$R_j$$. The rankings $$R_i$$ and $$R_j$$ are the performance ranking of MLLMs on i-th and j-th dimensions of the benchmark.</p>
+        <hr>
+        <h3>Instances Redundancy</h3>
+      <p>$$\rho(A\%) = \text{CORR}(R_{A\%}, R_{\text{GT}})$$,</p>
+      <p></p> where $$R_{A\%}$$ is the MLLM ranking based on the sampled $$A\%$$ instances, and $$R_{\text{GT}}$$ is the MLLM ranking based on all instances within the MLLM benchmark.
+        <hr>
+        <h3>Cross-Benchmark Redundancy</h3>
+      <p>$$\rho(Y_i) = \frac{1}{l-1} \sum_{\substack{j=1 \\ j \neq i}}^l \text{CORR}(K_i, K_j), $$</p>
+    <p>where $$\text{CORR}(K_i, K_j)$$ is the correlation coefficient between the rankings $$K_i$$ and $$K_j$$. The rankings $$R_i$$ and $$R_j$$ are the performance ranking of MLLMs on i-th and j-th benchmarks of the specific domain.</p>
     </td>
   </tr>
 </table>
 
 
+# Redundancy Results
+<h3>PDF Viewer</h3>
+<iframe src="example.pdf" width="100%" height="600px" style="border: none;"></iframe>
 
 
 ## Contact
