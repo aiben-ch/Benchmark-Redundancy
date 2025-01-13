@@ -54,7 +54,7 @@ and **3) Cross-benchmark redundancy within specific domains**.
 <table>
   <tr>
     <td><img src="framework.png" alt="Description" style="width: 1600px;"></td>
-    <td style="padding-left: 60px;">
+    <td style="padding-left: 20px;">
       <h3>Dimensions Redundancy</h3>
       <p>$$\rho(X_i) = \frac{1}{m-1} \sum_{\substack{j=1 \\ j \neq i}}^m \text{CORR}(R_i, R_j),$$ </p>
       <p>where $$\\\text{CORR}(R_i, R_j)$$ is the correlation coefficient between the rankings $$R_i$$ and $$R_j$$. The rankings $$R_i$$ and $$R_j$$ are the performance ranking of MLLMs on i-th and j-th dimensions of the benchmark.</p>
