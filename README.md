@@ -30,8 +30,7 @@ _Where Redundancy Exists? and Why Evaluate Redundancy?_
 <sup>*</sup>Equal contribution. <sup>#</sup>Corresponding authors. 
    </div>
   <a href=""><strong>Paper</strong></a> |
-  <a href=""><strong>Project Page</strong></a> |
- <a href=""><strong>Github</strong></a> |
+ <a href=""><strong>Github</strong></a> 
   <div style="width: 100%; text-align: center; margin:auto;">
       <img style="width:60%" src="ceaser.png">
   </div>
