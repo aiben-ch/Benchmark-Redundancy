@@ -18,8 +18,8 @@ _Where Redundancy Exists? and Why Evaluate Redundancy?_
 
 <div>
      <a href="https://minxiongkuo.github.io/" target="_blank">Xiongkuo Min</a><sup>2</sup>,
-     <a href="" target="_blank">Haodong Duan</a><sup>1</sup><sup>#</sup>,
-     <a href="" target="_blank">Kai Chen</a><sup>1</sup><sup>#</sup>,
+     <a href="https://kennymckormick.github.io" target="_blank">Haodong Duan</a><sup>1</sup><sup>#</sup>,
+     <a href="https://chenkai.site/" target="_blank">Kai Chen</a><sup>1</sup><sup>#</sup>,
       <a href="https://ee.sjtu.edu.cn/en/FacultyDetail.aspx?id=24&infoid=153&flag=153" target="_blank">Guangtao Zhai</a><sup>1</sup><sup>#</sup>
       
   </div>
@@ -29,8 +29,8 @@ _Where Redundancy Exists? and Why Evaluate Redundancy?_
 <div>
 <sup>*</sup>Equal contribution. <sup>#</sup>Corresponding authors. 
    </div>
-  <a href=""><strong>Paper</strong></a> |
- <a href=""><strong>Github</strong></a> 
+  <a href="https://github.com/zzc-1998/Benchmark-Redundancy/blob/main/Redundancy_Principles.pdf"><strong>Paper</strong></a> |
+ <a href="https://github.com/zzc-1998/Benchmark-Redundancy"><strong>Github</strong></a> 
   <div style="width: 100%; text-align: center; margin:auto;">
       <img style="width:60%" src="ceaser.png">
   </div>
@@ -198,10 +198,4 @@ Please contact any of the first authors of this paper for queries.
 - Zicheng Zhang, `zzc1998@sjtu.edu.cn`, @zzc-1998
 
 
-## Citation
 
-If you find our work interesting, please feel free to cite our paper:
-
-```bibtex
-
-```
