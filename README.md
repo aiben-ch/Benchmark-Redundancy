@@ -198,4 +198,21 @@ Please contact any of the first authors of this paper for queries.
 - Zicheng Zhang, `zzc1998@sjtu.edu.cn`, @zzc-1998
 
 
+### Citation
+
+If you find our work useful, please cite our paper as
+
+```
+@misc{zhang2025redundancyprinciplesmllmsbenchmarks,
+      title={Redundancy Principles for MLLMs Benchmarks}, 
+      author={Zicheng Zhang and Xiangyu Zhao and Xinyu Fang and Chunyi Li and Xiaohong Liu and Xiongkuo Min and Haodong Duan and Kai Chen and Guangtao Zhai},
+      year={2025},
+      eprint={2501.13953},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2501.13953}, 
+}
+```
+
+
 
