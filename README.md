@@ -29,7 +29,7 @@ _Where Redundancy Exists? and Why Evaluate Redundancy?_
 <div>
 <sup>*</sup>Equal contribution. <sup>#</sup>Corresponding authors. 
    </div>
-  <a href="https://arxiv.org/abs/2501.13953"><strong>Paper</strong></a> |
+  <a href="https://arxiv.org/abs/2501.13953"><strong>Arxiv</strong></a> |
  <a href="https://github.com/zzc-1998/Benchmark-Redundancy"><strong>Github</strong></a> 
   <div style="width: 100%; text-align: center; margin:auto;">
       <img style="width:60%" src="ceaser.png">
