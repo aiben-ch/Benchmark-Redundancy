@@ -20,11 +20,11 @@ _Where Redundancy Exists? and Why Evaluate Redundancy?_
      <a href="https://minxiongkuo.github.io/" target="_blank">Xiongkuo Min</a><sup>2</sup>,
      <a href="https://kennymckormick.github.io" target="_blank">Haodong Duan</a><sup>1</sup><sup>#</sup>,
      <a href="https://chenkai.site/" target="_blank">Kai Chen</a><sup>1</sup><sup>#</sup>,
-      <a href="https://ee.sjtu.edu.cn/en/FacultyDetail.aspx?id=24&infoid=153&flag=153" target="_blank">Guangtao Zhai</a><sup>1</sup><sup>#</sup>
+      <a href="https://ee.sjtu.edu.cn/en/FacultyDetail.aspx?id=24&infoid=153&flag=153" target="_blank">Guangtao Zhai</a><sup>1,2</sup><sup>#</sup>
       
   </div>
   <div>
-  <sup>1</sup>Shanghai AI Lab, <sup>1</sup>Shanghai Jiaotong University,  <sup>2</sup>Nanyang Technological University
+  <sup>1</sup>Shanghai AI Lab, <sup>2</sup>Shanghai Jiaotong University,  <sup>3</sup>Zhejiang University
        </div>   
 <div>
 <sup>*</sup>Equal contribution. <sup>#</sup>Corresponding authors. 
